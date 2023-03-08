@@ -1,4 +1,4 @@
-use std::{io::Write};
+use std::io::Write;
 
 fn input(msg: &str) -> String {
     print!("{}", msg);
