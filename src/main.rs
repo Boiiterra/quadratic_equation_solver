@@ -13,7 +13,7 @@ fn input(msg: &str) -> String {
 
 fn get_i32(msg: &str) -> i32 {
     loop {
-        let _: i32 = match input(msg).trim().parse() {
+        match input(msg).trim().parse() {
             Ok(num) => return num,
             Err(_) => continue,
         };
